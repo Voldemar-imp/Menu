@@ -63,7 +63,7 @@ namespace password
                     case "ChangeConsoleSize":
                         Console.Write("Введите ширину консоли: ");
                         windowWidth = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Введите ширину консоли: ");
+                        Console.Write("Введите высоту консоли: ");
                         windowWidth = Convert.ToInt32(Console.ReadLine());
                         Console.SetWindowSize(windowWidth, windowHeight);
                         break;
