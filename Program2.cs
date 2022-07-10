@@ -32,7 +32,7 @@ namespace password
             while (isMenuWork)
             {
                 Console.SetWindowSize(windowWidth, windowHeight);
-                Console.WriteLine("Добро пожаловать в меню управления рекламным баннером.");
+                Console.WriteLine("Добро пожаловать в меню управления текстовой консолью.");
                 Console.WriteLine("Введите одну из управляющих команд: \n" +
                     "ConsoleColorGreen - изменить цвет консоли на зеленый \n" +
                     "ConsoleColorBlue - изменить цвет консоли на синий \n" +
