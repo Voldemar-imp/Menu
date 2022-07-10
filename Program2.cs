@@ -27,7 +27,6 @@ namespace password
             message = login;
             Console.WriteLine("Введите пароль: ");
             password = Console.ReadLine();
-            message = login;
             Console.Clear();
 
             while (isMenuWork)
